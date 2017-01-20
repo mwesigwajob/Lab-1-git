@@ -1,12 +1,19 @@
 public class MyCalc
 {
-public static void main()
-{
-System.out.println(this.add(2,6));
-}
-
-public int add(int a,int b)
-{
-return (a+b);
+  public static void main(String[] args)
+  {
+    if (args[0].equals("add"))
+    {
+      double one = Double.parseDouble(args[1]);
+      double two = Double.parseDouble(args[2]);
+      System.out.println(one+two);
+    }
+      if (args[0].equals("sub"))
+    {
+      double one = Double.parseDouble(args[1]);
+      double two = Double.parseDouble(args[2]);
+      System.out.println(one-two);
+    }
+  
 }
 }
