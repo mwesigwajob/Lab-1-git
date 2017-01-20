@@ -14,6 +14,13 @@ public class MyCalc
       double two = Double.parseDouble(args[2]);
       System.out.println(one-two);
     }
+      
+      if (args[0].equals("mult"))
+    {
+      double one = Double.parseDouble(args[1]);
+      double two = Double.parseDouble(args[2]);
+      System.out.println(one*two);
+    }
   
 }
 }
