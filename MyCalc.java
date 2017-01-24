@@ -21,6 +21,13 @@ public class MyCalc
       double two = Double.parseDouble(args[2]);
       System.out.println(one*two);
     }
+
+     if (args[0].equalsIgnoreCase("divide"))
+    {
+      double one = Double.parseDouble(args[1]);
+      double two = Double.parseDouble(args[2]);
+      System.out.println(one/two);
+    }
   
 }
 }
